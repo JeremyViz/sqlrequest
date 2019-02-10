@@ -1,0 +1,22 @@
+Easy
+1. SHOW tables FROM webacademie
+2. SELECT * FROM film 
+3. SELECT titre FROM film
+4. SELECT * FROM film WHERE id_genre IS NULL
+5. SELECT * FROM film WHERE date_debut_affiche>"2000-01-01" limit 10
+
+Medium
+1. SELECT * FROM film WHERE id_genre IN (1,2) AND titre LIKE "a%"
+2. SELECT sum(nbr_siege) FROM salle
+3. SELECT sum(nbr_siege) FROM salle WHERE etage_salle=(numero de l'etage)
+4. SELECT nom_salle FROM salle WHERE nbr_siege<200
+5. SELECT * FROM film AS filmcool WHERE id_genre=2 AND titre LIKE "%day%"
+
+Hard
+1. 
+2.
+3.
+
+INSANE
+1.  (x_x)
+      
